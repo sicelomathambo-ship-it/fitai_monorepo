@@ -1,0 +1,11 @@
+{
+  "name": "fitai-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd apps/frontend && npm run dev",
+    "dev:backend": "cd apps/backend && python run.py",
+    "install:frontend": "cd apps/frontend && npm install",
+    "build:frontend": "cd apps/frontend && npm run build"
+  }
+}
