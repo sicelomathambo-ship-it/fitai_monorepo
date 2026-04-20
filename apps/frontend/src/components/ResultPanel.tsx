@@ -134,7 +134,6 @@ export default function ResultPanel({ result, loading }: ResultPanelProps) {
           <div className={`${styles.cardIcon} ${styles.iconBlue}`}><IconChip /></div>
           <div>
             <div className={styles.cardTitle}>AI Explanation</div>
-            <div className={styles.cardSub}>LLM explanation layer — Phase C governance</div>
           </div>
         </div>
         <div className={styles.cardBody}>

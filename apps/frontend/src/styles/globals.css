@@ -3,28 +3,36 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --coral:         #c94a20;
-  --coral-deep:    #a33918;
-  --coral-mid:     #e0602e;
-  --coral-light:   #f07545;
-  --coral-pale:    #fff3ee;
-  --coral-tint:    #fde8de;
-  --coral-border:  #f5c4a8;
-  --coral-glow:    rgba(201,74,32,.18);
-  --cream:         #fdf8f5;
+  /* Brand accent — forest/emerald green, chosen to complement fitness photography
+     (gym, running, nutrition) without clashing with warm skin tones. Variable
+     names are kept as --coral-* for minimal churn; the values are now green. */
+  --coral:         #059669;  /* emerald-600 */
+  --coral-deep:    #065f46;  /* emerald-800 */
+  --coral-mid:     #10b981;  /* emerald-500 */
+  --coral-light:   #34d399;  /* emerald-400 */
+  --coral-pale:    #f0fdf4;  /* green-50 */
+  --coral-tint:    #dcfce7;  /* green-100 */
+  --coral-border:  #bbf7d0;  /* green-200 */
+  --coral-glow:    rgba(5, 150, 105, .18);
+
+  /* Neutrals — cool stone greys (editorial, photo-friendly) */
+  --cream:         #fafaf9;  /* stone-50 */
   --white:         #ffffff;
-  --ink:           #1a0e08;
-  --ink2:          #3d2010;
-  --ink3:          #7a5040;
-  --muted:         #b08070;
-  --border:        #f0d8cc;
-  --border2:       #e8c8b8;
+  --ink:           #0c0a09;  /* stone-950 */
+  --ink2:          #292524;  /* stone-800 */
+  --ink3:          #57534e;  /* stone-600 */
+  --muted:         #78716c;  /* stone-500 */
+  --border:        #e7e5e4;  /* stone-200 */
+  --border2:       #d6d3d1;  /* stone-300 */
+
+  /* Semantic — unchanged */
   --success:       #16a34a;
   --success-bg:    #dcfce7;
   --success-text:  #14532d;
   --warn:          #d97706;
   --warn-bg:       #fef3c7;
   --warn-text:     #78350f;
+
   --radius:        16px;
   --radius-sm:     10px;
   --radius-xs:     7px;

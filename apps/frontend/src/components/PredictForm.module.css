@@ -3,7 +3,7 @@
   border: 1.5px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(201,74,32,.06);
+  box-shadow: 0 4px 24px rgba(5, 150, 105, .06);
 }
 
 .formHeader {

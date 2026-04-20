@@ -6,7 +6,7 @@
   border-radius: var(--radius);
   overflow: hidden;
   background: var(--white);
-  box-shadow: 0 4px 20px rgba(201, 74, 32, 0.06);
+  box-shadow: 0 4px 20px rgba(5, 150, 105, 0.06);
 }
 
 .placeholderPhotoWrap {
@@ -85,7 +85,7 @@
   border: 1.5px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  box-shadow: 0 4px 20px rgba(201,74,32,.06);
+  box-shadow: 0 4px 20px rgba(5, 150, 105, .06);
   animation: countUp .45s cubic-bezier(.34,1.56,.64,1) both;
 }
 

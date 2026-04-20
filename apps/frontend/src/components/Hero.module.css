@@ -26,12 +26,12 @@
   background:
     linear-gradient(
       115deg,
-      rgba(163, 57, 24, 0.92) 0%,
-      rgba(201, 74, 32, 0.82) 40%,
-      rgba(224, 96, 46, 0.55) 75%,
-      rgba(240, 117, 69, 0.28) 100%
+      rgba(6, 78, 59, 0.92) 0%,      /* emerald-900 */
+      rgba(6, 95, 70, 0.80) 35%,     /* emerald-800 */
+      rgba(16, 185, 129, 0.45) 75%,  /* emerald-500 */
+      rgba(52, 211, 153, 0.18) 100%  /* emerald-400 */
     ),
-    radial-gradient(circle at 85% 20%, rgba(0, 0, 0, 0.15) 0%, transparent 55%);
+    radial-gradient(circle at 85% 20%, rgba(0, 0, 0, 0.18) 0%, transparent 55%);
   z-index: -1;
 }
 
